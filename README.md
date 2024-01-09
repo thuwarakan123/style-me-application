@@ -20,10 +20,8 @@ StyleMe is a final year project that aims to revolutionize the way people choose
 
 ## Aim
 
-The primary goal of this research is to:
-
 ***The aim of this research is to design, develop, and evaluate a recommendation system that can analyze the face of a user and predict the face shape of the user. Then, according to 
-the face shape, it will recommend the hair or beard style for the users***
+the face shape, it will recommend the hair or beard style for the users.***
 
 ## Technologies Used
 
