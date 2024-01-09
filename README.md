@@ -26,7 +26,7 @@ the face shape, it will recommend the hair or beard style for the users._
 ## Concept Map
 
 <div align="center">
-   <img src="static/images/diagram/Cocept map.png" alt="Logo" width="600" height="600">
+   <img src="static/images/diagram/Cocept map.png" alt="Logo" width="400" height="400">
 </div>
 
 ## Technologies Used
