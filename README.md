@@ -1,4 +1,8 @@
-# StyleMe - Hair and Beard Style Recommendation System
+# **StyleMe** - Hair and Beard Style Recommendation System
+
+<div align="center">
+   <img src="static/images/logo.png" alt="Logo" width="200" height="200">
+</div>
 
 ## Overview
 
@@ -16,11 +20,8 @@ StyleMe is a final year project that aims to revolutionize the way people choose
 
 ## Aim
 
-The primary goal of this research is to:
-
-- Design, develop, and evaluate a recommendation system.
-- Analyze the user's face to predict face shape and gender.
-- Provide personalized hair and beard style recommendations based on the analysis.
+_The aim of this research is to design, develop, and evaluate a recommendation system that can analyze the face of a user and predict the face shape of the user. Then, according to 
+the face shape, it will recommend the hair or beard style for the users._
 
 ## Technologies Used
 
@@ -28,4 +29,6 @@ The primary goal of this research is to:
 - **Machine Learning Models:** CNN for face shape and gender prediction
 - **Additional Libraries:** OpenCV, NumPy, Pandas for image preprocessing and other tasks
 
+<embed src="Presentation.pdf"/>
+[embed]Presentation.pdf[/embed]
 
