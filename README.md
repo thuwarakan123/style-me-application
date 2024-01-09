@@ -1,5 +1,9 @@
 # StyleMe - Hair and Beard Style Recommendation System
 
+<div align="center">
+   <img src="static/images/logo.png" alt="Logo" width="200" height="200">
+</div>
+
 ## Overview
 
 StyleMe is a final year project that aims to revolutionize the way people choose their hair and beard styles. The system uses a recommendation approach based on the user's face shape and gender, providing personalized suggestions for a perfect look.
