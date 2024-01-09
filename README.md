@@ -23,12 +23,17 @@ StyleMe is a final year project that aims to revolutionize the way people choose
 _The aim of this research is to design, develop, and evaluate a recommendation system that can analyze the face of a user and predict the face shape of the user. Then, according to 
 the face shape, it will recommend the hair or beard style for the users._
 
+## Concept Map
+
+<div align="center">
+   <img src="static/images/diagram/Cocept map.png" alt="Logo" width="600" height="600">
+</div>
+
 ## Technologies Used
 
 - **Development Framework:** Flask
 - **Machine Learning Models:** CNN for face shape and gender prediction
 - **Additional Libraries:** OpenCV, NumPy, Pandas for image preprocessing and other tasks
 
-<embed src="Presentation.pdf"/>
-[embed]Presentation.pdf[/embed]
+
 
