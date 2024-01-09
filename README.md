@@ -30,6 +30,5 @@ the face shape, it will recommend the hair or beard style for the users._
 - **Additional Libraries:** OpenCV, NumPy, Pandas for image preprocessing and other tasks
 
 <embed src="Presentation.pdf"/>
-<iframe src="Presentation.pdf"></iframe> 
-
+[embed]Presentation.pdf[/embed]
 
