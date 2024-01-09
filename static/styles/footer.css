@@ -1,0 +1,98 @@
+#footer {
+    display: flex;
+    flex-flow: row wrap; /* flex-direction and flex-wrap*/
+    padding: 40px 40px 10px 50px;
+    font-size: 14px;
+}
+/* Select all elements where the parent is footer*/
+#footer > * {
+    /* grow shrink basis (takes 100% of width) */
+    flex: 1 0 100%;
+    color: #999;
+}
+#footer ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+#footer li {
+    line-height: 20px;
+}
+#footer li:hover {
+    text-decoration: none;
+}
+#footer a {
+    text-decoration: none;
+}
+#footer h4 {
+    font-weight: 700;
+    font-size: 19px;
+    text-align: left;
+}
+#footer .footer-left {
+    margin-right: 60px;
+    margin-bottom: 20px;
+    margin-left:70px;
+}
+#footer .footer-left .socials {
+    text-align: left;
+}
+#footer .footer-left .socials .logo {
+    background-color: #ffffff;
+    border-radius: 35px;
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 25px;
+    height: 28px;
+    padding: 3px;
+}
+#footer .footer-left .text {
+    margin: 10px auto;
+    text-align: left;
+}
+#footer .footer-right {
+    display: flex;
+    flex-flow: row wrap;
+}
+#footer .footer-right > * {
+    flex: 1 50%;
+    margin-right: 15px;
+}
+#footer .footer-right .group-links{
+    min-height: 120px;
+}
+#footer .box a {
+    color: #999;
+}
+#footer .footer-bottom {
+    text-align: center;
+    color: #999;
+    padding-top: 20px;
+}
+#footer .footer-left p {
+    padding-right: 20%;
+    color: #999;
+}
+#footer .socails a {
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+#footer .socails a {
+    color: #fff;
+    padding: 10px 12px;
+    font-size: 20px;
+}
+@media screen and (min-width: 1025px) {
+    #footer .footer-right > * {
+        flex: 1;
+    }
+    #footer .footer-left {
+        flex: 1 0px;
+    }
+    #footer .footer-right {
+        flex: 2 0px;
+    }
+}

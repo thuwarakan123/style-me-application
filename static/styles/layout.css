@@ -1,0 +1,53 @@
+/* To reload static files - Ctrl + Shift + R */
+/* -- Layout -- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    font-family: 'Poppins';
+}
+/* #header-content-container{
+     min-height: 100%; 
+} */
+#content{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+#footer{
+    position: relative;
+    margin-top: -100px;
+    clear: both;
+}
+.center-heading{
+    margin: 30px auto;
+    text-align: center;
+}
+.link{
+    color: #fff;
+    text-decoration: none;
+}
+.link:hover{
+    color: #fff;
+}
+.link-decorate{
+    display: inline-block;
+}
+.link-decorate::after{
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: #fff;
+    transition: 0.5s;
+}
+.link-decorate:hover::after{    
+    width: 100%; 
+}
+.special-text {
+    background-color: #bbe1fa;
+    border-radius: 30px;
+}

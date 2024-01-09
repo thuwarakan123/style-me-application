@@ -1,0 +1,45 @@
+{% extends "layout.html" %} {% block content %}
+<div class="container">
+    <div id="welcome" class="pt-5 mb-3">
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-auto">
+                        <img alt="upload" class="logo" src="{{ url_for('static', filename='images/ui/upload.png') }}" />
+                    </div>
+                    <p style="text-align: center; font-weight: 400;"> User need to upload face image to the system. </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-auto">
+                        <img alt="upload" class="logo" src="{{ url_for('static', filename='images/ui/prediction.png') }}" />
+                    </div>
+                    <p style="text-align: center; font-weight: 400;"> The system will process the image and predict the gender and the face shape of the user. </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-auto">
+                        <img alt="upload" class="logo" src="{{ url_for('static', filename='images/ui/display.png') }}" />
+                    </div>
+                    <p style="text-align: center; font-weight: 400;"> Once the system predicts the user's gender and face shape, it will show the suggestion.  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div id="welcome" class="pt-3 pb-5">
+        <div id="welcome-info-container">
+            <h2 style="font-weight: 800;">Video Demo</h2>
+            <p style="text-align: justify;" class="mb-3">
+                This demo video helps users get an idea of how to use this web page.
+            </p>
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/VMSqBqF6cwA" title="Hair and Beard style Recommendation System based on the Face Shape" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+        </div>
+    </div>
+
+    
+</div>
+{% endblock content %}

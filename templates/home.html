@@ -1,0 +1,36 @@
+{% extends "layout.html" %} {% block content %}
+
+<div class="container">
+    <div id="welcome">
+        <div class="container">
+            <h1 class="text-center" style="font-weight: 800; margin-top: 7%; margin-bottom: 5%;">Hair & Beard style Suggestion</h1>
+            <form action="/predict" method="post" enctype="multipart/form-data" style="margin-bottom: 3%;">
+                <div class="form-group" style="margin-bottom: 3%;">
+                    <label for="formFile" class="form-label" style="font-weight: 600; margin-bottom: 2%; font-size: large;">Upload your face image :-</label>
+                    <input class="form-control" type="file" id="formFile" name="file">
+                </div>
+                <div class="text-end">
+                    <button type="submit" name="action" value="task1" class="btn btn-dark me-3">Predict Hair style</button>
+                    <button type="submit" name="action" value="task2" class="btn btn-dark">Predict Beard style</button>
+                </div>
+            </form>
+            {% if prediction %}
+            <h1 class="text-center" style="font-weight: 800; margin-top: 5%; margin-bottom: 3%;">{{prediction.name}}</h1>
+            <p style="text-align: justify;" class="pb-3"> {{prediction.description}} </p>
+                {% for data in prediction.hairStyleList %}
+                    <h4 style="font-weight: 600; margin-bottom: 2%;"> 0{{ loop.index }} - The {{data.name}}</h4>
+                    <img src="{{ url_for('static', filename=data.imagSrc)}}" alt="{{data.name}}" width="300" style="margin-bottom: 2%;">
+                    <p style="text-align: justify; margin-bottom: 3%;">{{data.description}}</p>
+                {% endfor %}
+            <p style="text-align: justify; margin-bottom: 4%;"> 
+                <strong>Other suitable hairstyles :- </strong> {{prediction.otherHairStyles}} 
+            </p>
+            {% endif %}
+            {% if message %}
+                <p class="text-center text-danger pt-3" style="font-weight: 600; font-size: large; text-align: center;">{{ message }}</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
