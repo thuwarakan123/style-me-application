@@ -1,4 +1,4 @@
-# StyleMe - Hair and Beard Style Recommendation System
+# **StyleMe** - Hair and Beard Style Recommendation System
 
 <div align="center">
    <img src="static/images/logo.png" alt="Logo" width="200" height="200">
