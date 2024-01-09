@@ -29,4 +29,6 @@ the face shape, it will recommend the hair or beard style for the users._
 - **Machine Learning Models:** CNN for face shape and gender prediction
 - **Additional Libraries:** OpenCV, NumPy, Pandas for image preprocessing and other tasks
 
+<embed src="Presentation.pdf" width="800px" height="2100px" />
+
 
