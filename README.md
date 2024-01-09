@@ -26,7 +26,7 @@ the face shape, it will recommend the hair or beard style for the users._
 ## Concept Map
 
 <div align="center">
-   <img src="static/images/diagram/Cocept map.png" alt="Logo" width="400" height="400">
+   <img src="static/images/diagram/Cocept map.png" alt="Logo">
 </div>
 
 ## Technologies Used
@@ -34,6 +34,17 @@ the face shape, it will recommend the hair or beard style for the users._
 - **Development Framework:** Flask
 - **Machine Learning Models:** CNN for face shape and gender prediction
 - **Additional Libraries:** OpenCV, NumPy, Pandas for image preprocessing and other tasks
+
+<div align="center">
+   <img src="static/images/diagram/tech.png" alt="Logo">
+</div>
+
+## Video Demonstration
+
+A [YouTube video](https://youtu.be/VMSqBqF6cwA) is available, providing a detailed demonstration and explanation of the system and code.
+
+## Report 
+For a detailed discussion of the project, please refer to the [Thesis](Thesis.pdf) included in the repository. For detailed information about the System, please refer to the [Presentation](Presentation.pdf). 
 
 
 
